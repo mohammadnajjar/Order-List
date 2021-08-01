@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Order list</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    </head>
+    <body>  
+        <div class="order">
+            <div class="title-order">
+                <h4 class="title">order list</h4>
+                <i class="fas fa-ellipsis-h icon"></i>
+            </div>
+            <div class="form">
+                <form action="#">
+                    <input type="text" name="invoice-search" id="invoice-search" placeholder="Invoice Search">
+                    <input type="text" name="search-by-title" id="search-by-title" placeholder="Search by Title">
+                    <input type="text" name="search-by-phone" id="search-by-phone" placeholder="Search by Phone">
+                    <input type="submit" value="Search">
+                </form>
+            </div>
+            <div class="items">
+                <div class="main-item">
+                    <input type="checkbox" name="checkbox" id="checkbox" >
+                    <span class="num">invoice</span>
+                     <span class="image">Image</span>
+                    <span class="kind">menu <i class="fas fa-sort-down fa-sm"></i></span>
+                    <span class="name">customer name <i class="fas fa-sort-down fa-sm"></i></span>
+                    <span class="conut">quantity</span>
+                    <span class="price">amount <i class="fas fa-sort-down fa-sm"></i></span>
+                    <span class="status">order status <i class="fas fa-sort-down fa-sm"></i></span>
+                    <span class="phone">phone <i class="fas fa-sort-down fa-sm"></i></span>
+                </div>
+            
+                <div class="item">
+                    <div class="check">
+                        <input type="checkbox" name="checkbox" id="checkbox" checked>
+                    </div>
+                    <span class="num"># 1150</span>
+                    <img src="https://i.postimg.cc/d1bVjpHd/01.jpg" alt="#">
+                    <span class="kind">Cheese Pizza</span>
+                    <span class="name">Mark Willy</span>
+                    <span class="conut">05</span>
+                    <span class="price">$2,590</span>
+                    <button>Confirmed</button>
+                    <span class="phone">+123 9856047</span>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="item">
+                               <div class="check">
+                        <input type="checkbox" name="checkbox" id="checkbox" >
+                    </div>
+                    <span class="num"># 1150</span>
+                    <img src="https://i.postimg.cc/d1bVjpHd/01.jpg" alt="#">
+                    <span class="kind">Cheese Pizza</span>
+                    <span class="name">Mark Willy</span>
+                    <span class="conut">05</span>
+                    <span class="price">$2,590</span>
+                    <button>Pending</button>
+                    <span class="phone">+123 9856047</span>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="item">
+                               <div class="check">
+                        <input type="checkbox" name="checkbox" id="checkbox" >
+                    </div>
+                    <span class="num"># 1150</span>
+                    <img src="https://i.postimg.cc/d1bVjpHd/01.jpg" alt="#">
+                    <span class="kind">Cheese Pizza</span>
+                    <span class="name">Mark Willy</span>
+                    <span class="conut">05</span>
+                    <span class="price">$2,590</span>
+                    <button>Confirmed</button>
+                    <span class="phone">+123 9856047</span>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+ 
+                <div class="item">
+                               <div class="check">
+                        <input type="checkbox" name="checkbox" id="checkbox" >
+                    </div>
+                    <span class="num"># 1150</span>
+                    <img src="https://i.postimg.cc/d1bVjpHd/01.jpg" alt="#">
+                    <span class="kind">Cheese Pizza</span>
+                    <span class="name">Mark Willy</span>
+                    <span class="conut">05</span>
+                    <span class="price">$2,590</span>
+                    <button>Confirmed</button>
+                    <span class="phone">+123 9856047</span>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="item">
+                               <div class="check">
+                        <input type="checkbox" name="checkbox" id="checkbox" >
+                    </div>
+                    <span class="num"># 1150</span>
+                    <img src="https://i.postimg.cc/d1bVjpHd/01.jpg" alt="#">
+                    <span class="kind">Cheese Pizza</span>
+                    <span class="name">Mark Willy</span>
+                    <span class="conut">05</span>
+                    <span class="price">$2,590</span>
+                    <button>Pending</button>
+                    <span class="phone">+123 9856047</span>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="item">
+                               <div class="check">
+                        <input type="checkbox" name="checkbox" id="checkbox" >
+                    </div>
+                    <span class="num"># 1150</span>
+                    <img src="https://i.postimg.cc/d1bVjpHd/01.jpg" alt="#">
+                    <span class="kind">Cheese Pizza</span>
+                    <span class="name">Mark Willy</span>
+                    <span class="conut">05</span>
+                    <span class="price">$2,590</span>
+                    <button>Confirmed</button>
+                    <span class="phone">+123 9856047</span>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+
+               
+            </div>  
+            <div class="pages">
+                <div class="showing">
+                    <span>Showing 1-30 / 150 Results</span>
+                  </div>
+                <div class="number">
+                    <span>Previous</span>
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>Next</span>
+                  </div>
+            </div>
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>
